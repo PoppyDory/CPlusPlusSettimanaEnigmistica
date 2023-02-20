@@ -1,1 +1,4 @@
-return lettera;
+#include <iostream>
+#include <string>
+
+using namespace std;

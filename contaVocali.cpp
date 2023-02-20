@@ -10,26 +10,10 @@ int contaVocali(string parola)
     int vocali = 0;
     for (int i = 0; i < parola.length(); i++)
     {
-        if (parola[i]== 'a')
+        if (parola[i]== 'a' || parola[i]== 'e'|| parola[i]== 'i' ||parola[i]== 'o' ||parola[i]== 'u')
         {
             vocali++;
-        }
-        else if (parola[i]== 'e')
-        {
-            vocali++;
-        }
-        else if (parola[i]== 'i')
-        {
-            vocali++;
-        }
-        else if (parola[i]== 'o')
-        {
-            vocali++;
-        }
-        else if (parola[i]== 'u')
-        {
-            vocali++;
-        }
+        }    
     }
     return vocali;
 }
